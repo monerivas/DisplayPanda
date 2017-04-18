@@ -4,15 +4,15 @@
 }
 
 body{
-    background-color: #20581e
+    background-color: #112210
 }
 
 /*--------------NAV---------------*/
 nav{
-    background-color: #cb1212;
+    background-color: #d9462c;
 }
 ul{
-  background-color: #cb1212;
+  background-color: #d9462c;
 }
 li{
   display: inline-block;
@@ -53,33 +53,32 @@ span{
 /*------------Botones-------------------*/
 
 #botones{
+    width: 700px;
+    height: 30px;
     margin: 20px 20px 20px 0;
     width: 80%     
 }
 
 .boton{
-    background-color: #cb1912;
-    color: white;
     display: inline-block;
+    height: 100%;
+    padding: 0px 125px 0px 125px;
+    margin-left: 10px;
+    background-color: #d9462c;
+    text-align: center;
+    color: white;
     border-width: 0;
-    width: 30%
-    padding: 5px;
-    margin-right: 10px;
 }
 
 .boton:hover{
     background-color: #bc3d38;
-    
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*----------------Textos-----------------*/
+#textos p{
+    display: inline-block;
+    width: 33%;
+    height: 200px;
+    color: white;
+    margin: 2%;
+}
