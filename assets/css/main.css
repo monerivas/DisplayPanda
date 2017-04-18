@@ -35,7 +35,7 @@ span{
 
 #section{
     margin-left: 10%
-    widows: 80%;
+    width: 80%;
 }
 
 #imagenes div{
@@ -50,6 +50,27 @@ span{
     width: 100%;
 }
 
+/*------------Botones-------------------*/
+
+#botones{
+    margin: 20px 20px 20px 0;
+    width: 80%     
+}
+
+.boton{
+    background-color: #cb1912;
+    color: white;
+    display: inline-block;
+    border-width: 0;
+    width: 30%
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.boton:hover{
+    background-color: #bc3d38;
+    
+}
 
 
 
