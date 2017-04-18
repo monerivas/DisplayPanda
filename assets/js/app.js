@@ -1,11 +1,28 @@
 //----------------Imagenes de Pandas-----------
-var botonRestaurar= document.getElementById("botonRestaurar");
-botonRestaurar.addEventListener("click", funcion);
+var taches= document.getElementsByClassName("cerrar");
+var divsImagenes= document.getElementsByClassName("divsImagenes");
 
-function cerrar1() {
-  document.getElementsByClassName('className')[0].style.display="none";
+for(var i= 0; i<taches.length; i++){
+  taches[i].addEventListener("click", eleccion);
 }
 
+function eleccion() {
+  ocultardivsImagenes(this)
+}
+
+function ocultardivsImagenes(taches) {
+  taches.parentNode.style.display="none";
+}
+
+//-------Restaurar Fotos--------
+var botonRestaurar= document.getElementById("botonRestaurar");
+botonRestaurar.addEventListener("click", restaurar);
+
+function restaurar() {
+  for(var i=0; i<divsImagenes.length; i++){
+    divsImagenes[i].style.display="inline-block";
+  }
+}
 
 //--------------Texto de la pagina-------------
 var botonOrigen= document.getElementById("botonOrigen");
